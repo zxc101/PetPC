@@ -10,6 +10,7 @@ namespace Pets
     public class Pet : MonoBehaviour
     {
         public float TIME_ROTATE => 4;
+        public float TIME_MOVE => 4;
 
         [SerializeField] private float minSpeed;
         

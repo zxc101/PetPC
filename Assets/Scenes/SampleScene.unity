@@ -1154,176 +1154,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4452229916558603458, guid: 656e70e218391684fb506b6a789dd482,
-        type: 3}
-      propertyPath: m_Name
-      value: Kitten
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: nextGoal
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: currentGoal
-      value: 
-      objectReference: {fileID: 1719020636}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: point
-      value: 
-      objectReference: {fileID: 1101955994357544028, guid: 53abdb4a7b1dd0147bd5fa5662257b81,
-        type: 3}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: currentGoal1
-      value: 
-      objectReference: {fileID: 1427298748}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: currentGoal2
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: currentGoalEat
-      value: 
-      objectReference: {fileID: 1427298748}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: currentGoalSleep
-      value: 
-      objectReference: {fileID: 1719020636}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: needEat
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: needSleep
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: feeder
-      value: 
-      objectReference: {fileID: 1427298748}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: bed
-      value: 
-      objectReference: {fileID: 1719020636}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: timeEat
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: NowNeedEat
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: NowNeedSleep
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: timeAwake
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: timeStarving
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: timeSleep
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
       propertyPath: Needs.Array.data[0].prefab
       value: 
       objectReference: {fileID: 1427298748}
     - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[0].criticalValue
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[0].value
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
       propertyPath: Needs.Array.data[1].prefab
       value: 
       objectReference: {fileID: 1719020636}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[0].name
-      value: IsEat
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[1].name
-      value: IsSleep
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[1].value
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[1].criticalValue
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[0].processingTime
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[0].consumptionTime
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[1].processingTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[1].consumptionTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[0].step
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[1].step
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: timeConsumptionNeeds
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[0].maxValue
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[1].maxValue
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[0].stepConsumption
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: Needs.Array.data[1].stepConsumption
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: distanceForBraking
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: minSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: maxAngleForMove
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517004596, guid: 656e70e218391684fb506b6a789dd482, type: 3}
-      propertyPath: midleAngleForMove
-      value: 45
-      objectReference: {fileID: 0}
     - target: {fileID: 4449638103965058616, guid: 656e70e218391684fb506b6a789dd482,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1379,20 +1217,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 848607524187464087, guid: 656e70e218391684fb506b6a789dd482,
+    - target: {fileID: 4452229916558603458, guid: 656e70e218391684fb506b6a789dd482,
         type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7352117637886456311, guid: 656e70e218391684fb506b6a789dd482,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
-    - target: {fileID: 7352117637886456311, guid: 656e70e218391684fb506b6a789dd482,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
+      propertyPath: m_Name
+      value: Kitten
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 656e70e218391684fb506b6a789dd482, type: 3}

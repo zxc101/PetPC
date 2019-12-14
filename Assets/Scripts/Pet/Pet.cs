@@ -10,17 +10,13 @@ namespace Pets
     public class Pet : MonoBehaviour
     {
         public float TIME_ROTATE => 4;
-        public float TIME_MOVE => 4;
-        
-        [Header("Корректировка скорости")]
-        [SerializeField] private float minSpeed;
-        [SerializeField] private float distanceForBraking;
-        [SerializeField] private float maxAngleForMove;
-        [SerializeField] private float midleAngleForMove;
 
+        [SerializeField] private float minSpeed;
+        
+        [Tooltip("Потребности")]
         [SerializeField] private float timeConsumptionNeeds;
 
-        [Header("Потребности")]
+        [Tooltip("Потребности")]
         public Need[] Needs;
 
         [Header("Префаб для вспомогательных целей")]
@@ -40,9 +36,6 @@ namespace Pets
         
         public float TimeConsumptionNeeds => timeConsumptionNeeds;
         public float MinSpeed => minSpeed;
-        public float DistanceForBraking => distanceForBraking;
-        public float MaxAngleForMove => maxAngleForMove;
-        public float MidleAngleForMove => midleAngleForMove;
         public Transform Point => point;
         public Transform Eye => eye;
 
@@ -140,16 +133,6 @@ namespace Pets
 
         private void OnTriggerEnter(Collider collider)
         {
-            if (collider.tag == "Goal")
-            {
-                if (collider.transform.position == Need.prefab.position &&
-                    Need.value < Need.criticalValue)
-                {
-                    AnimManager.Need(Need.name, true);
-                    StartCoroutine(NeedsManager.Processing());
-                }
-            }
-
             if (collider.tag == "Point")
             {
                 RemoveFirstGoal();

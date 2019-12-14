@@ -13,16 +13,6 @@ namespace Pets
             pet = _pet;
         }
 
-        public IEnumerator Processing()
-        {
-            while (pet.Need.value < pet.Need.maxValue)
-            {
-                yield return new WaitForSeconds(pet.Need.processingTime);
-                pet.Need.value++;
-            }
-            pet.AnimManager.Need(pet.Need.name, false);
-        }
-
         public IEnumerator Consumptions()
         {
             while (true)

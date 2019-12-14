@@ -77,9 +77,12 @@ namespace Pets
             // Move speed
 
             // Чем больше угол между направлением персонажа и позицией следующего нода пути, тем меньше скорость при слишком большом угле скорость нулевая
-            // Чем ближе объект к его Need, тем меньше скорость при очень близком сближении скорость близка к 0, но не 0
+            // Чем ближе объект к его Need, тем меньше скорость при очень близком сближении скорость равна 0
 
-            pet.SpeedMove = pet.MinSpeed + MathHelper.DistanceXZ(pet.Transform.position, pet.Need.prefab.position) / Mathf.Clamp(MathHelper.Angle(pet.Transform, pet.NextPosition), 1, pet.MaxAngleForMove);
+            // Чем дальше объект тем больше скорость
+            // Чем больше угол, тем меньше скорость
+
+            pet.SpeedMove = Mathf.Clamp((Mathf.Clamp(MathHelper.DistanceXZ(pet.Transform.position, pet.Need.prefab.position), 0, 1) - Mathf.Abs(MathHelper.Angle(pet.Transform, pet.NextPosition) / 180)) * 2, pet.MinSpeed, 2);
         }
     }
 }

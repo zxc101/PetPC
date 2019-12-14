@@ -44,6 +44,16 @@ namespace Pets
                 {
                     yield return new WaitForFixedUpdate();
                 }
+                if(pet.SpeedMove == 0 && pet.Need.value < pet.Need.maxValue)
+                {
+                    yield return new WaitForSeconds(pet.Need.processingTime);
+                    pet.AnimManager.Need(pet.Need.name, true);
+                    pet.Need.value++;
+                }
+                else
+                {
+                    pet.AnimManager.Need(pet.Need.name, false);
+                }
             }
         }
 
